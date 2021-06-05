@@ -6,7 +6,9 @@ var validation = new Validation();
 function getEle(id){
     return document.getElementById(id);
 }
-
+function testGit(){
+    console.log("bài tập GIT");
+}
 //Lấy data từ local storage hiển thị ra màn hình
 getLocalStorage();
 
